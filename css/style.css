@@ -1,0 +1,350 @@
+/* livvic-regular - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/livvic-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/livvic-v13-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/livvic-v13-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/livvic-v13-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/livvic-v13-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+body {
+  background: #014e56;
+  font-family: "livvic";
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.btn {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  padding: 9px 30px;
+  transition: 0, 4s;
+}
+
+/* HEADER */
+.site-header {
+  margin: 0;
+  margin-top: 73px;
+  margin-bottom: 133px;
+}
+.header-container {
+  display: flex;
+}
+
+.logo-img {
+  display: flex;
+  margin-right: 80px;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin-right: auto;
+}
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  transition: 0, 5s;
+}
+.nav-link:hover {
+  opacity: 30%;
+}
+.header-cta {
+  display: flex;
+  text-decoration: none;
+  margin-right: 0px;
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.header-cta:hover {
+  border-color: #014e56;
+  background-color: #ffffff;
+  color: #014e56;
+}
+.logo-link {
+  transition: 0, 5s;
+}
+.logo-link:hover {
+  opacity: 10%;
+}
+/* MAIN */
+/* HERO-SECTION */
+
+.hero-cover{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 250px;
+}
+.hero-title {
+  width: 550px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.hero-info {
+width: 445px;
+}
+.line {
+  margin-bottom: 79px;
+  width: 50px;
+}
+.hero-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.pink {
+  color: #f67e7e;
+}
+
+/* BUILD SECTION */
+
+.build-section {
+  background: #012f34;
+}
+
+.build-div {
+  width: 445px;
+  padding-top: 198px;
+}
+
+.build-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.build-list-div {
+  display: flex;
+  width: 540px;
+  margin-left: auto;
+  padding-top: 198px;
+  padding-bottom: 140px;
+}
+.build-list {
+  list-style: none;
+
+}
+.build-item {
+  display: flex;
+  margin-bottom: 23px;
+}
+.item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+  margin-bottom: 16px;
+}
+.item-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.build-img {
+display: flex;
+margin-right: 23px;
+}
+.build-line {
+  margin-bottom: 54px;
+}
+.build-cover-div {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+.info-text{
+
+}
+/* DELIVERING SECTION */
+
+.delivering-title {
+  padding-top: 140px;
+  padding-bottom: 92px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  width: 932px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.delivering-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-bottom: 151px;
+}
+.deliver-item {
+  width: 350px;
+  margin-right: 30px;
+}
+.deliver-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.deliver-subtext {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+  padding-bottom: 2px;
+}
+.avatar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FINAL SECTION */
+.final-section {
+  background: #F67E7E;
+}
+
+.fin-div {
+  display: flex;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  justify-content: space-between;
+  align-items: center;
+}
+.ready-div {
+  margin-right: 260px;
+}
+.final-cta {
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #012F34;
+border: 2px solid #012F34;
+border-radius: 24px;
+padding: 9px 33px 11px 32px;
+}
+
+.ready-text{
+  font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+color: #012F34;
+}
+
+/* FOOTER */
+
+.site-footer{
+  background-color: #002529;
+}
+.footer-cover{
+  padding-top: 48px;
+  display: flex;
+  padding-bottom: 48px;
+}
+.footer-link{
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-list{
+  display: flex;
+  margin-right: 0;
+  margin-left: auto;
+}
+.footer-item{
+  margin-right: 40px;
+}
+.adres{
+  font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.logo-text{
+  font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+text-align: right;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+.footer-div{
+  margin-right: 126px;
+}
+.logo-div{
+  margin-left: auto;
+}
+.logo-list{
+  display: flex;
+  margin-bottom: 21px;
+}
+.footer-logo{
+  margin-bottom: 25px;
+}
+.icon{
+  margin-right: 16px;
+}
